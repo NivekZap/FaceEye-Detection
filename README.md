@@ -1,4 +1,4 @@
-FaceEye-Detection
+## FaceEye-Detection
 
 Proyecto en Python que implementa un sistema de detección en tiempo real de rostros y ojos utilizando la biblioteca OpenCV. Este programa emplea modelos Haar Cascade para identificar las características faciales y oculares en imágenes capturadas desde una cámara web.
 
@@ -21,10 +21,10 @@ face_cascade = cv2.CascadeClassifier('path/to/haarcascade_frontalface_default.xm
 eye_cascade = cv2.CascadeClassifier('path/to/haarcascade_eye.xml')
 ```
 ## Para Clonar este repo :
-git clone https://github.com/tu-usuario/FaceEye-Detection.git
-cd FaceEye-Detection
-Ejecuta el script principal:
-python main.py
+1. git clone https://github.com/tu-usuario/FaceEye-Detection.git
+2. cd FaceEye-Detection
+3. python main.py
+
 
 Asegúrate de que la cámara web esté funcionando correctamente.
 La ventana mostrará las detecciones en tiempo real. Presiona la tecla Esc para salir del programa.
